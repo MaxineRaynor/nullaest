@@ -1,0 +1,42 @@
+{
+  "name": "@theme-ui/prism",
+  "version": "0.15.2",
+  "main": "dist/theme-ui-prism.cjs.js",
+  "module": "dist/theme-ui-prism.esm.js",
+  "types": "dist/theme-ui-prism.cjs.d.ts",
+  "source": "src/index.tsx",
+  "author": "John Otander",
+  "license": "MIT",
+  "repository": "system-ui/theme-ui",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "theme-ui",
+    "prism",
+    "prismjs",
+    "emotion",
+    "css",
+    "css-in-js",
+    "style"
+  ],
+  "scripts": {
+    "build-presets": "node build-presets.js"
+  },
+  "dependencies": {
+    "prism-react-renderer": "^1.1.1"
+  },
+  "peerDependencies": {
+    "theme-ui": "workspace:^",
+    "@theme-ui/mdx": "workspace:^"
+  },
+  "devDependencies": {
+    "@theme-ui/mdx": "workspace:^",
+    "param-case": "^3.0.4",
+    "postcss": "^8.1.10",
+    "postcss-js": "^3.0.3",
+    "theme-ui": "workspace:^",
+    "react": "^18"
+  },
+  "gitHead": "621199460fa3bdb0100748441e62517b7529b8c8"
+}
